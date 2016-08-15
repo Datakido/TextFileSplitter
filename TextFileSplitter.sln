@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileSplitStrategyEngine", "FileSplitStrategyEngine\FileSplitStrategyEngine.csproj", "{243A36BF-82F8-48E2-B26F-13E512ADD21F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextFileSplitterConsole", "TextFileSplitterConsole\TextFileSplitterConsole.csproj", "{A2DE960F-1897-4739-82A3-1935F35F00E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FilePatternTokens", "FilePatternTokens\FilePatternTokens.csproj", "{127A7F6A-386A-4FFC-A53D-E6D5EA869422}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileSplitStrategies", "FileSplitStrategies\FileSplitStrategies.csproj", "{1755AD41-4E9D-4187-B939-48582E060FC0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7635DFF3-D287-4F5A-9438-7619E1224418}"
+	ProjectSection(SolutionItems) = preProject
+		GlobalAssemblyInfo.cs = GlobalAssemblyInfo.cs
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{243A36BF-82F8-48E2-B26F-13E512ADD21F}.Debug|x86.ActiveCfg = Debug|x86
+		{243A36BF-82F8-48E2-B26F-13E512ADD21F}.Debug|x86.Build.0 = Debug|x86
+		{243A36BF-82F8-48E2-B26F-13E512ADD21F}.Release|x86.ActiveCfg = Release|x86
+		{243A36BF-82F8-48E2-B26F-13E512ADD21F}.Release|x86.Build.0 = Release|x86
+		{A2DE960F-1897-4739-82A3-1935F35F00E1}.Debug|x86.ActiveCfg = Debug|x86
+		{A2DE960F-1897-4739-82A3-1935F35F00E1}.Debug|x86.Build.0 = Debug|x86
+		{A2DE960F-1897-4739-82A3-1935F35F00E1}.Release|x86.ActiveCfg = Release|x86
+		{A2DE960F-1897-4739-82A3-1935F35F00E1}.Release|x86.Build.0 = Release|x86
+		{127A7F6A-386A-4FFC-A53D-E6D5EA869422}.Debug|x86.ActiveCfg = Debug|x86
+		{127A7F6A-386A-4FFC-A53D-E6D5EA869422}.Debug|x86.Build.0 = Debug|x86
+		{127A7F6A-386A-4FFC-A53D-E6D5EA869422}.Release|x86.ActiveCfg = Release|x86
+		{127A7F6A-386A-4FFC-A53D-E6D5EA869422}.Release|x86.Build.0 = Release|x86
+		{1755AD41-4E9D-4187-B939-48582E060FC0}.Debug|x86.ActiveCfg = Debug|x86
+		{1755AD41-4E9D-4187-B939-48582E060FC0}.Debug|x86.Build.0 = Debug|x86
+		{1755AD41-4E9D-4187-B939-48582E060FC0}.Release|x86.ActiveCfg = Release|x86
+		{1755AD41-4E9D-4187-B939-48582E060FC0}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
