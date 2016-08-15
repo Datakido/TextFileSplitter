@@ -67,7 +67,3 @@ The following characters can be used to separate parameters:
 
 Parameter values can be delimited using = or :.
 h=3 or h:3 are all valid.
-
-Please refer all questions and comments to support@systemwidgets.com
-
-For news and updates please visit http://www.systemwidgets.com
