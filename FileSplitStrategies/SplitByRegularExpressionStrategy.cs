@@ -5,9 +5,9 @@ using System.Reflection;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.Windows.Forms;
-using SystemWidgets.FileSplitStrategyEngine;
+using Datakido.FileSplitStrategyEngine;
 
-namespace SystemWidgets.FileSplitStrategies
+namespace Datakido.FileSplitStrategies
 {
     [Export(typeof(ISplitStrategy))]
     public class SplitByRegularExpressionStrategy : ISplitStrategy

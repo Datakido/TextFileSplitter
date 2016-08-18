@@ -1,8 +1,8 @@
 ﻿using System.ComponentModel.Composition;
 using System.IO;
-using SystemWidgets.FileSplitStrategyEngine;
+using Datakido.FileSplitStrategyEngine;
 
-namespace SystemWidgets.FilePatternTokens
+namespace Datakido.FilePatternTokens
 {
     [Export(typeof(IFilePatternToken))]
     public class FileExtensionToken : IFilePatternToken

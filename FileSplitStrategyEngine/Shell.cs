@@ -5,7 +5,7 @@ using System.Reflection;
 using System.ComponentModel.Composition;
 using System.ComponentModel.Composition.Hosting;
 
-namespace SystemWidgets.FileSplitStrategyEngine
+namespace Datakido.FileSplitStrategyEngine
 {
     /// <exclude/>
     public class Shell

@@ -1,9 +1,9 @@
 ﻿using System;
 using System.ComponentModel.Composition;
 using System.Text.RegularExpressions;
-using SystemWidgets.FileSplitStrategyEngine;
+using Datakido.FileSplitStrategyEngine;
 
-namespace SystemWidgets.FilePatternTokens
+namespace Datakido.FilePatternTokens
 {
     [Export(typeof(IFilePatternToken))]
     public class NumberSequenceToken : IFilePatternToken

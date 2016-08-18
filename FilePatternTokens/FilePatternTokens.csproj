@@ -8,8 +8,8 @@
     <ProjectGuid>{127A7F6A-386A-4FFC-A53D-E6D5EA869422}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>SystemWidgets.FilePatternTokens</RootNamespace>
-    <AssemblyName>SystemWidgets.FilePatternTokens</AssemblyName>
+    <RootNamespace>Datakido.FilePatternTokens</RootNamespace>
+    <AssemblyName>Datakido.FilePatternTokens</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <FileUpgradeFlags>

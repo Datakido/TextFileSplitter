@@ -1,7 +1,7 @@
 ﻿using System.Windows.Forms;
-using SystemWidgets.FileSplitStrategyEngine;
+using Datakido.FileSplitStrategyEngine;
 
-namespace SystemWidgets.FileSplitStrategies
+namespace Datakido.FileSplitStrategies
 {
     public partial class SplitByLineSettingsControl : UserControl
     {

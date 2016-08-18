@@ -3,7 +3,7 @@ using System.Drawing;
 using System.Reflection;
 using System.Runtime.InteropServices;
 
-namespace SystemWidgets.FileSplitStrategyEngine
+namespace Datakido.FileSplitStrategyEngine
 {
     using System.Globalization;
     using System.IO;

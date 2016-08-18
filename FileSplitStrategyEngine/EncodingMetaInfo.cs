@@ -1,5 +1,5 @@
 ﻿
-namespace SystemWidgets.FileSplitStrategyEngine
+namespace Datakido.FileSplitStrategyEngine
 {
     using System.Text;
 

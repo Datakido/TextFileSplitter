@@ -2,7 +2,7 @@
 using System.IO;
 using System.Text;
 
-namespace SystemWidgets.FileSplitStrategyEngine
+namespace Datakido.FileSplitStrategyEngine
 {
     /// <summary>
     /// This creates a context object for the strategy classes. It has metadata that is needed to accomplish splitting tasks.

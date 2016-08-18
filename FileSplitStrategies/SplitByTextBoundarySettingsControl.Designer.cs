@@ -1,4 +1,4 @@
-﻿namespace SystemWidgets.FileSplitStrategies
+﻿namespace Datakido.FileSplitStrategies
 {
     partial class SplitByTextBoundarySettingsControl
     {

@@ -3,9 +3,9 @@ using System.IO;
 using System.Reflection;
 using System.Text;
 using System.Windows.Forms;
-using SystemWidgets.FileSplitStrategyEngine;
+using Datakido.FileSplitStrategyEngine;
 
-namespace SystemWidgets.FileSplitStrategies
+namespace Datakido.FileSplitStrategies
 {
     [Export(typeof(ISplitStrategy))]
     public class SplitByLineStrategy : ISplitStrategy

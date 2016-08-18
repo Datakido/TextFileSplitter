@@ -1,4 +1,4 @@
-﻿namespace SystemWidgets.FileSplitStrategyEngine
+﻿namespace Datakido.FileSplitStrategyEngine
 {
     public interface ISplitStrategyMetaData
     {

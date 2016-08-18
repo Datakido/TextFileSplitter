@@ -1,6 +1,6 @@
 ﻿using System.Windows.Forms;
 
-namespace SystemWidgets.FileSplitStrategies
+namespace Datakido.FileSplitStrategies
 {
     public partial class SplitByRegularExpressionSettingsControl : UserControl
     {
