@@ -1,4 +1,10 @@
-ALERT!
+# TextFileSplitter
+
+This utility was originally created as part of an integration between internal databases at Ancestry.com and DREAMmail, and external email campaign management system. It has evolved into what it is today. It was originally hosted at the SystemWidgets website. This website died after one too many problems. The Datakido organization has taken over its care.
+
+The GUI can not be open sourced as it contains commercial controls. It will be hosted at http://datakido.com once this site is configured.
+
+**ALERT!**
 
 You must have .NET 4.0 installed in order for this utility to work.
 
