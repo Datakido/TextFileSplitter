@@ -1,8 +1,7 @@
-﻿
+﻿using System.Text;
+
 namespace Datakido.FileSplitStrategyEngine
 {
-    using System.Text;
-
     /// <summary>
     /// Holds information about a file's encoding.
     /// </summary>

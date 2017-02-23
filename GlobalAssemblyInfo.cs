@@ -6,7 +6,7 @@ using System.Runtime.InteropServices;
 // associated with an assembly.
 [assembly: AssemblyProduct("Datakido's Text File Splitter")]
 [assembly: AssemblyCompany("Datakido")]
-[assembly: AssemblyCopyright("Copyright © SystemWidgets 2007-2013 : Datakido 2013-2016")]
+[assembly: AssemblyCopyright("Copyright © SystemWidgets 2007-2013 : Datakido 2014-2017")]
 
 // Version information for an assembly consists of the following four values:
 //

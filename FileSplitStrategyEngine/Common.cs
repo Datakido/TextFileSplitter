@@ -1,14 +1,13 @@
 ﻿using System;
 using System.Drawing;
 using System.Reflection;
+using System.Globalization;
+using System.IO;
+using System.Text;
 using System.Runtime.InteropServices;
 
 namespace Datakido.FileSplitStrategyEngine
 {
-    using System.Globalization;
-    using System.IO;
-    using System.Text;
-
     /// <exclude/>
     public class Common
     {
@@ -81,22 +80,22 @@ namespace Datakido.FileSplitStrategyEngine
 
             metaData.HasBom = metaInfo.HasBom;
 
-            //using (FileStream fs = File.OpenRead(sourceFile))
-            //{
-            //    var cdet = new Ude.CharsetDetector();
-            //    cdet.Feed(fs);
-            //    cdet.DataEnd();
+            using (FileStream fs = File.OpenRead(sourceFile))
+            {
+                var cdet = new Ude.CharsetDetector();
+                cdet.Feed(fs);
+                cdet.DataEnd();
 
-            //    if (cdet.Charset != null)
-            //    {
-            //        metaData.CharacterSet = cdet.Charset;
-            //        metaData.DetectionConfidence = cdet.Confidence;
-            //    }
-            //    else
-            //    {
-            //        Console.WriteLine("Detection failed.");
-            //    }
-            //}
+                if (cdet.Charset != null)
+                {
+                    metaData.CharacterSet = cdet.Charset;
+                    metaData.DetectionConfidence = cdet.Confidence;
+                }
+                else
+                {
+                    Console.WriteLine("Detection failed.");
+                }
+            }
 
             using (var sr = new StreamReader(sourceFile))
             {
