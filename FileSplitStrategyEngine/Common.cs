@@ -46,10 +46,7 @@ namespace Datakido.FileSplitStrategyEngine
         /// <summary>
         /// Gets the default file pattern.
         /// </summary>
-        public static string DefaultFilePattern
-        {
-            get { return "[FILENAME]-[SEQUENCE:0].[EXT]"; }
-        }
+        public static string DefaultFilePattern => "[FILENAME]-[SEQUENCE:0].[EXT]";
 
         /// <summary>
         /// Gets the version number.
