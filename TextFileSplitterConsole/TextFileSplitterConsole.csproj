@@ -84,14 +84,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\FilePatternTokens\FilePatternTokens.csproj">
-      <Project>{127A7F6A-386A-4FFC-A53D-E6D5EA869422}</Project>
-      <Name>FilePatternTokens</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\FileSplitStrategies\FileSplitStrategies.csproj">
-      <Project>{1755AD41-4E9D-4187-B939-48582E060FC0}</Project>
-      <Name>FileSplitStrategies</Name>
-    </ProjectReference>
     <ProjectReference Include="..\FileSplitStrategyEngine\FileSplitStrategyEngine.csproj">
       <Project>{243A36BF-82F8-48E2-B26F-13E512ADD21F}</Project>
       <Name>FileSplitStrategyEngine</Name>
