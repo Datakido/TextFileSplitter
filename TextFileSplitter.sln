@@ -1,6 +1,8 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.4
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileSplitStrategyEngine", "FileSplitStrategyEngine\FileSplitStrategyEngine.csproj", "{243A36BF-82F8-48E2-B26F-13E512ADD21F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextFileSplitterConsole", "TextFileSplitterConsole\TextFileSplitterConsole.csproj", "{A2DE960F-1897-4739-82A3-1935F35F00E1}"
@@ -12,6 +14,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7635DFF3-D287-4F5A-9438-7619E1224418}"
 	ProjectSection(SolutionItems) = preProject
 		GlobalAssemblyInfo.cs = GlobalAssemblyInfo.cs
+		README.txt = README.txt
 	EndProjectSection
 EndProject
 Global
